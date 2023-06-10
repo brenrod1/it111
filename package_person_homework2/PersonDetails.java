@@ -67,7 +67,7 @@ public class PersonDetails {
         thirdPerson.display();
         System.out.println("Preliminary Rate for " +thirdPerson.name+ ": " +thirdPerson.getRate(monthlyRate) + " dollars");
         System.out.println("Adjustments: " +thirdPerson.assumeGender(adjustedRate) + " dollars");
-        System.out.println("Adjustment for age of car: " +firstPerson.getCar(adjustedRate1));
+        System.out.println("Adjustment for age of car: " +thirdPerson.getCar(adjustedRate1));
         System.out.print("Here is " +thirdPerson.name+ "'s total monthly premium: ");
         System.out.println(thirdPerson.assumeGender(adjustedRate) + thirdPerson.getRate(monthlyRate) + thirdPerson.getCar(adjustedRate1));
         System.out.println();
